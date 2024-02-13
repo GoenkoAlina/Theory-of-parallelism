@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.16.3)
+if(DOUBLE)
+    add_definitions(-DTYPE)
+endif()
+add_executable(lab_1 lab_1.cpp)
