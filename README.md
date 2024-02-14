@@ -1,1 +1,1 @@
-# Theory-of-parallelism
+Для выбора типа массива нужно вызвать "make 'type'", где вместо type указать float или double (по умолчанию при вызове make, будет выбран float).
