@@ -14,9 +14,9 @@ type arr[10000000];
 
 int main(){
     type sum = 0;
-    for(int i = 1; i < 10000000; i++){
-        arr[i - 1] = sin(i/(M_PI * 2));
-        sum += arr[i - 1];
+    for(int i = 0; i < 10000000; i++){
+        arr[i] = sin(i * M_PI * 2 / 10000000);
+        sum += arr[i];
     }
     cout << sum << endl;
     return 0;
